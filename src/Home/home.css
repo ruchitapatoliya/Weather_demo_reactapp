@@ -1,0 +1,81 @@
+.home_bg{
+    background-image: url(/public/home_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 707px;
+}
+.sun_img{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+.sun{
+    width: 25%;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+input{
+border: transparent ;
+width: 90%;
+padding: 5px;
+
+}
+.home_submit{
+    border: transparent;
+    width: 5%;
+}
+.home_submit:hover{
+    border: transparent;
+    width: 5%;
+    background-color: black;
+    color: white;
+}
+.sub_img_contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub_img_contain h2{
+    color: white;
+    font-size: 17px;
+}
+.sub_img_contain button{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0px 14px;
+    box-shadow: 3px 3px 3px black;
+}
+.sub_img_contain button:hover{
+   
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid black;
+    padding: 0px 14px;
+    box-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+.heading{
+    font-size: 60px;
+    text-align: center;
+    margin: 0 ;
+    padding: 40px 20px;
+    color: white;
+    text-shadow: 7px 7px 7px black;
+}
+
+.cloud_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cloud{
+    width: 10%;
+}
